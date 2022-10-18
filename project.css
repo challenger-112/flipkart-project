@@ -1,5 +1,21 @@
 body {
     margin: auto;
+    background-color: white;
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
+
+.mc{
+    height: 41px;
+    width: 40px;;
+}
+
+#mode{
+    position: absolute;
 }
 
 #coupon{

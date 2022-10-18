@@ -10,6 +10,9 @@
 <body>
     <div id="main">
         <header>
+            <div id="mode">
+                <button onclick="myFunction()"><img src="https://i.ibb.co/jJk2HGp/MODE.png" alt="MODE" class="mc"></button>
+            </div>
             <div id="brandimage">
                 <img src="images/1220318_flipkart_ecommerce_shopping_icon.png" alt="flipkart" class="logo" />
             </div>
@@ -312,6 +315,14 @@
     <script>
         window.onload = loadCoupon()
     </script>
+
+    <script>
+    function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+    }
+    </script>
+    
 </body>
 
 </html>
